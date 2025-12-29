@@ -27,7 +27,7 @@ npm install kitsu-ui
 Add the Kitsu UI css to your application stylesheet:
 
 ```css
-@import './node_modules/kitsu-ui/global.css'
+@import './node_modules/kitsu-ui/global.scss'
 ```
 
 Then import components directly from the module:
