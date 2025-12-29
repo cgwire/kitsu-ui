@@ -198,12 +198,12 @@ export default {
   .option-line,
   .combo {
     color: var(--text);
-    background: $dark-grey-light;
-    border-color: $dark-grey;
+    background: var(--background-dark);
+    border-color: var(--border);
   }
 
   .option-line:hover {
-    background: $dark-purple;
+    background: var(--background-selected);
   }
 }
 
@@ -229,7 +229,7 @@ export default {
   }
 
   &:hover {
-    border: 1px solid $green;
+    border: 1px solid var(--green);
   }
 
   .selected-line {
@@ -240,13 +240,13 @@ export default {
     width: 15px;
     min-width: 15px;
     margin-right: 0.4em;
-    color: $green;
+    color: var(--green);
     cursor: pointer;
   }
 }
 
 .option-line {
-  background: $white;
+  background: var(--white);
   border-bottom: 1px solid var(--border);
   cursor: pointer;
   margin: 0;
@@ -255,7 +255,7 @@ export default {
   width: inherit;
 
   &:hover {
-    background: $purple;
+    background: var(--purple);
   }
 
   &:last-child {

@@ -200,7 +200,7 @@ button {
 
 .input:invalid,
 .input.errored {
-  border-color: $red;
+  border-color: var(--red);
 }
 
 input[type='number']::-webkit-outer-spin-button,

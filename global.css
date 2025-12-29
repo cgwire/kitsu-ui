@@ -50,7 +50,7 @@ $yellow: #FFC107;
   --background-hover: #E1E4FF;
   --background-hover-rgb: 240, 255, 240;
   --background-tag:  #EEE;
-  --background-tag-button: #F9F9F9; 
+  --background-tag-button: #F9F9F9;
   --background-selectable: #E1E4FF;
   --background-selectable-selectable: #CFD1FF;
   --background-selected: #CFD1FF;
@@ -67,7 +67,7 @@ $yellow: #FFC107;
   --text-strong: #333;
   --poster-color: #000;
   --green: #00B242;
-  --purple: #CFD1FF; 
+  --purple: #CFD1FF;
 }
 
 .dark {
@@ -80,8 +80,8 @@ $yellow: #FFC107;
   --background-hover: #5E6169;
   --background-hover-rgb: 94, 97, 105;
   --background-page: #36393F;
-  --background-tag:  #36393F; 
-  --background-tag-button: #4E5159; 
+  --background-tag:  #36393F;
+  --background-tag-button: #4E5159;
   --background-selectable: #7E80CA;
   --background-selectable-selectable: #878B97;
   --background-selected: #5E60BA;
@@ -96,7 +96,7 @@ $yellow: #FFC107;
   --text: #EEEEEE;
   --text-alt: #EEEEEE;
   --text-strong: #FEFEFE;
-  --purple: #5E60BA; 
+  --purple: #5E60BA;
 }
 
 body {
@@ -226,11 +226,7 @@ input.input:focus {
 
 /* Style shared by tables */
 
-table.data-table {
-  tbody {
-    td {
-      border: 1px solid var(--border);
-      padding: 0.5em 0.5em;
-    }
-  }
+table.data-table tbody td {
+  border: 1px solid var(--border);
+  padding: 0.5em 0.5em;
 }

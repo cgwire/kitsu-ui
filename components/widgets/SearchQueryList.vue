@@ -303,7 +303,7 @@ export default {
 .dark {
   .search-queries .del,
   .search-queries .edit {
-    background: $dark-grey-light;
+    background: var(--background-dark);
     color: white;
   }
 }
@@ -406,12 +406,12 @@ export default {
 
 .search-queries .del:hover,
 .search-queries .edit:hover {
-  background: $dark-grey-lighter;
+  background: var(--background-tag-button);
 }
 
 .search-queries .edit,
 .search-queries .del {
-  background: $light-grey;
+  background: var(--grey-light);
   border-radius: 50%;
   color: white;
   cursor: pointer;

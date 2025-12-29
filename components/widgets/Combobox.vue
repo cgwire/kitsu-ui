@@ -129,7 +129,7 @@ export default {
 }
 
 .error {
-  border-color: $red;
+  border-color: var(--red);
 }
 
 .control {
